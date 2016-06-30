@@ -99,7 +99,7 @@ HaravanAPI.addItemFromForm = function(form, callback, errorCallback) {
 
 // Get from cart.js returns the cart in JSON
 HaravanAPI.getCart = function(callback) {
-	jQuery.getJSON('/cart.js', function (cart, textStatus) {
+	jQuery.getJSON('/static/js/cart.js', function (cart, textStatus) {
 		if ((typeof callback) === 'function') {
 			callback(cart);
 		}
@@ -136,7 +136,7 @@ HaravanAPI.changeItem = function(line, quantity, callback) {
 ==============================================================================*/
 var ajaxCart = (function(module, $) {
 
-	'use strict';
+//	'use strict';
 
 	// Public functions
 	var init, loadCart;

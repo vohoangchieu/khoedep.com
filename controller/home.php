@@ -1,11 +1,13 @@
 <?php
-//
-//$query_bosch = "select *from product where type=0 order by show_in_home desc  limit 16";
-//$query_result_bosch = mysqli_query($db, $query_bosch);
-//$list_home_product_bosch = get_list_product_from_query_result($query_result_bosch);
-//
-//
-//$query_home_slide = "select *from product order by show_in_slide desc limit 8";
-//$query_result_home_slide = mysqli_query($db, $query_home_slide);
-//$list_home_slide_product = get_list_product_from_query_result($query_result_home_slide);
 
+foreach ($list_category as $category) {
+    if (!$category["showinhome"]) {
+        continue;
+    }
+    $query = "select *from product,subcategory "
+            . "where subcategory.url=product.subcategory "
+            . "and subcategory.category='{$category['url']}' limit $limit_home_category_product";
+    $query_result_categoryproduct = mysqli_query($db, $query);
+    $map_home_category_product[$category["url"]][] = get_list_product_from_query_result($query_result_categoryproduct);
+}
+//var_dump($map_home_category_product);

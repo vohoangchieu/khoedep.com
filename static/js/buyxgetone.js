@@ -48,7 +48,7 @@ function AddMore(variant_id) {
         async: false,
         dataType: "json",
         type: "GET",
-        url: '/cart.js',
+        url: '/static/js/cart.js',
         success: function (cartdata) {
             if (cartdata.items.length > 0) {
                 var has_variant_already = false;
@@ -155,7 +155,7 @@ jQuery(document).ready(function () {
 });
 jQuery(document).ajaxComplete(function (event, request, settings) {
 
-    if (settings.url == "/cart.js" || settings.url == "/cart/add.js") {
+    if (settings.url == "/static/js/cart.js" || settings.url == "/static/js/add.js") {
         if (window.callcart == 0) {
 
             HandleBuyXGetOneCart(false);
@@ -206,7 +206,7 @@ function HandleBuyXGetOneCart(isbuynow) {
         async: false,
         dataType: "json",
         type: "GET",
-        url: '/cart.js',
+        url: '/static/js/cart.js',
         success: function (cartdata) {
             jQuery(".suggest_buyxgetone").remove();
             if (cartdata.items.length > 0) {

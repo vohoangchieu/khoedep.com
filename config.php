@@ -24,8 +24,8 @@ if ($live) {
     $DB_HOST = 'localhost';
     $DB_NAME = 'cuacuonsg_16';
 } else {
-    $HOME = "http://www.cuacuon.com/";
-    $STATIC_SERVER = 'http://cuacuon.com/';
+    $HOME = "http://khoedep.com/";
+    $STATIC_SERVER = 'http://khoedep.com/';
     $DB_USER = 'root';
     $DB_PASSWORD = 'hoaiphuong';
     $DB_HOST = 'localhost';
@@ -42,6 +42,7 @@ $meta_keywords = "cửa kéo,cua keo, cua keo dai loan, cửa kéo đài loan, c
 $meta_description = "Cửa Kéo Đài Loan - Chuyên sản xuất và lắp ráp cửa kéo bằng sắt, tole công nghệ đài loan, cửa xếp tôn mạ màu đài loan: cửa kéo không lá, có lá, cửa kéo nhôm";
 $ggmap_link = "ban-do-cua-cuon-a-chau";
 $db = mysqli_connect($DB_HOST, $DB_USER, $DB_PASSWORD, $DB_NAME);
+$limit_home_category_product=10;
 mysqli_set_charset($db, 'utf8');
 
 //var_dump($db);
@@ -63,12 +64,11 @@ function get_list_product_from_query_result($r) {
     while ($row = mysqli_fetch_array($r)) {
         $product = $row;
 //        $product["name"] = $product["name"];
-        $product["product_url"] = /* "/p/" . $product["category"] . "/" . */ $product['alilas'];
+        $product["product_url"] = "/p/" . $product["category"] . "/". $product['url'];
         $product["product_thumb"] = "/static/image/product/thumb_" . $product['id'] . ".jpg";
         $product["product_image"] = "/static/image/product/" . $product["id"] . ".jpg";
-        $product["short_desc"] = getplaintextintrofromhtml($product["description"]);
+        $product["short_desc"] = get_plain_text_intro_from_html($product["description"]);
         if ($product["price"] > 0) {
-
             $product['price'] = number_format($product['price']) . " VNĐ";
         } else {
             $product['price'] = "LH $mobile_phone";
@@ -92,16 +92,24 @@ function go_to_not_found_page() {
     exit;
 }
 
-$query_category = "select *from category order by `order`";
+$query_category = "select *from category order by `order` desc";
 $query_result_category = mysqli_query($db, $query_category);
 while ($row = mysqli_fetch_array($query_result_category)) {
     $category = $row;
-    $category['url'] = "/" . $category['alilas']; //"/c/" . $category['id'];
-    $category['name'] = ucwords(strtolower($category['name']));
-    $list_category[] = $category;
+    $list_category[$row["url"]] = $category;
 }
 
-function getplaintextintrofromhtml($html) {
+$query_subcategory = "select *from subcategory order by `order` desc";
+$query_result_subcategory = mysqli_query($db, $query_subcategory);
+while ($row = mysqli_fetch_array($query_result_subcategory)) {
+    $subcategory = $row;
+    $list_subcategory[$row["url"]] = $subcategory;
+}
+foreach ($list_subcategory as $subcategory) {
+    $map_category[$subcategory["category"]][] = $subcategory;
+}
+
+function get_plain_text_intro_from_html($html) {
     $numchars = 75;
     // Remove the HTML tags
     $html = strip_tags($html);
