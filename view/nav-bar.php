@@ -6,7 +6,7 @@
 
 
                             <li class="site-nav--active">
-                                <a href="http://shop.khoedep.vn/" class="site-nav__link">
+                                <a href="/" class="site-nav__link">
                                     <span>Trang chủ</span>
 
                                 </a>      

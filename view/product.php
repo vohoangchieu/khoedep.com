@@ -1,103 +1,9 @@
 <!DOCTYPE html>
 <html class="supports-js supports-no-touch supports-csstransforms supports-csstransforms3d supports-fontface"><!--<![endif]-->
     <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-
-        <!-- Basic page needs ================================================== -->
-
-        <!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1' /><![endif]-->
-
-
-        <link rel="shortcut icon" href="http://hstatic.net/844/1000032844/1000122658/favicon.png?v=776" type="image/png">
-
-
-        <!-- Title and description ================================================== -->
-        <title>
-            Viên uống bổ sung cho trẻ em giúp ăn ngon Chewies Multivitamin With Ly – SHOP KhoeDep.vn
-        </title>
-
-
-
-        <!-- Helpers ================================================== -->
-
-
-
-
-
-        <meta property="og:type" content="product">
-        <meta property="og:title" content="Viên uống bổ sung cho trẻ em giúp ăn ngon Chewies Multivitamin With Lysine">
-        <meta property="og:image" content="http://hstatic.net/844/1000032844/1/2016/6-1/chewies-lysine-box-60-s_grande.jpg">
-        <meta property="og:image:secure_url" content="https://hstatic.net/844/1000032844/1/2016/6-1/chewies-lysine-box-60-s_grande.jpg">
-        <meta property="og:price:amount" content="120000">
-        <meta property="og:price:currency" content="VND">
-
-
-
-        <meta property="og:url" content="http://shop.khoedep.vn/products/vien-uong-bo-sung-cho-tre-em-giup-an-ngon-chewies-multivitamin-with-lysine">
-        <meta property="og:site_name" content="SHOP KhoeDep.vn">
-
-
-        <link rel="canonical" href="http://shop.khoedep.vn/products/vien-uong-bo-sung-cho-tre-em-giup-an-ngon-chewies-multivitamin-with-lysine">
-        <meta name="viewport" content="width=device-width,initial-scale=1">
-        <meta name="theme-color" content="#fa5555">
-
-        <!-- CSS ================================================== -->
-        <link rel="stylesheet" href="/static/css/font-awesome.min.css">
-        <link href="/static/css/combine.css" rel="stylesheet" type="text/css" media="all">
-        <link href="/static/css/styles.css" rel="stylesheet" type="text/css" media="all">
-        <link href="/static/css/jquery.fancybox.css" rel="stylesheet" type="text/css" media="all">
-        <script src="/static/js/jquery-1.11.3.min.js" type="text/javascript"></script>
-        <script src="/static/js/jquery.easytabs.min.js" type="text/javascript"></script>
-        <!-- Header hook for plugins ================================================== -->
-        <script type="text/javascript" async="" src="/static/js/productreviews.js"></script>
-        <script type="text/javascript" async="" src="/static/js/widgets.js"></script>
-        <script type="text/javascript" async="" src="/static/js/buyxgetone.js"></script>
-
-
-        <script type="text/javascript">
-            //<![CDATA[
-            if ((typeof Haravan) === 'undefined') {
-                Haravan = {};
-            }
-            Haravan.culture = 'vi-VN';
-            Haravan.shop = 'khoedep.myharavan.com';
-            Haravan.theme = {"name": "27/04 - Theme KhoeDep", "id": 1000122658, "role": "main"};
-            Haravan.domain = 'shop.khoedep.vn';
-            //]]>
-        </script>
-
-
-
-        <!-- JS ================================================== -->
-
-
-        <script src="/static/js/option_selection.js" type="text/javascript"></script>
-        <script src="/static/js/api.jquery.js" type="text/javascript"></script>
-        <script src="/static/js/clipboard.min.js" type="text/javascript"></script>
-        <script src="/static/js/combine.js" type="text/javascript"></script>
-
-
-        <script src="/static/js/jquery.optionSelect.js" type="text/javascript"></script>
-
-
-        <script src="/static/js/hogan-3.0.1.js" type="text/javascript"></script>
-        <script src="/static/js/lastviewproduct.js" type="text/javascript"></script>
-        <script src="/static/js/bootstrap.min.js" type="text/javascript"></script>
-
-        <script src="/static/js/jquery.zoom.min.js" type="text/javascript"></script>
-
-
-        <script src="/static/js/timber.js" type="text/javascript"></script>
-
-        <script src="/static/js/loyaltyapi.js" type="text/javascript"></script>
-        <script>
-            $(function () {
-                $("img.lazy").lazyload();
-            });
-        </script>
-        <style type="text/css">.fancybox-margin{margin-right:17px;}</style><style type="text/css">.fb_hidden{position:absolute;top:-10000px;z-index:10001}.fb_reposition{overflow:hidden;position:relative}.fb_invisible{display:none}.fb_reset{background:none;border:0;border-spacing:0;color:#000;cursor:auto;direction:ltr;font-family:"lucida grande", tahoma, verdana, arial, sans-serif;font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:1;margin:0;overflow:visible;padding:0;text-align:left;text-decoration:none;text-indent:0;text-shadow:none;text-transform:none;visibility:visible;white-space:normal;word-spacing:normal}.fb_reset>div{overflow:hidden}.fb_link img{border:none}@keyframes fb_transform{from{opacity:0;transform:scale(.95)}to{opacity:1;transform:scale(1)}}.fb_animate{animation:fb_transform .3s forwards}
-            .fb_dialog{background:rgba(82, 82, 82, .7);position:absolute;top:-10000px;z-index:10001}.fb_reset .fb_dialog_legacy{overflow:visible}.fb_dialog_advanced{padding:10px;-moz-border-radius:8px;-webkit-border-radius:8px;border-radius:8px}.fb_dialog_content{background:#fff;color:#333}.fb_dialog_close_icon{background:url(https://fbstatic-a.akamaihd.net/rsrc.php/v2/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 0 transparent;_background-image:url(https://fbstatic-a.akamaihd.net/rsrc.php/v2/yL/r/s816eWC-2sl.gif);cursor:pointer;display:block;height:15px;position:absolute;right:18px;top:17px;width:15px}.fb_dialog_mobile .fb_dialog_close_icon{top:5px;left:5px;right:auto}.fb_dialog_padding{background-color:transparent;position:absolute;width:1px;z-index:-1}.fb_dialog_close_icon:hover{background:url(https://fbstatic-a.akamaihd.net/rsrc.php/v2/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -15px transparent;_background-image:url(https://fbstatic-a.akamaihd.net/rsrc.php/v2/yL/r/s816eWC-2sl.gif)}.fb_dialog_close_icon:active{background:url(https://fbstatic-a.akamaihd.net/rsrc.php/v2/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -30px transparent;_background-image:url(https://fbstatic-a.akamaihd.net/rsrc.php/v2/yL/r/s816eWC-2sl.gif)}.fb_dialog_loader{background-color:#f6f7f9;border:1px solid #606060;font-size:24px;padding:20px}.fb_dialog_top_left,.fb_dialog_top_right,.fb_dialog_bottom_left,.fb_dialog_bottom_right{height:10px;width:10px;overflow:hidden;position:absolute}.fb_dialog_top_left{background:url(https://fbstatic-a.akamaihd.net/rsrc.php/v2/ye/r/8YeTNIlTZjm.png) no-repeat 0 0;left:-10px;top:-10px}.fb_dialog_top_right{background:url(https://fbstatic-a.akamaihd.net/rsrc.php/v2/ye/r/8YeTNIlTZjm.png) no-repeat 0 -10px;right:-10px;top:-10px}.fb_dialog_bottom_left{background:url(https://fbstatic-a.akamaihd.net/rsrc.php/v2/ye/r/8YeTNIlTZjm.png) no-repeat 0 -20px;bottom:-10px;left:-10px}.fb_dialog_bottom_right{background:url(https://fbstatic-a.akamaihd.net/rsrc.php/v2/ye/r/8YeTNIlTZjm.png) no-repeat 0 -30px;right:-10px;bottom:-10px}.fb_dialog_vert_left,.fb_dialog_vert_right,.fb_dialog_horiz_top,.fb_dialog_horiz_bottom{position:absolute;background:#525252;filter:alpha(opacity=70);opacity:.7}.fb_dialog_vert_left,.fb_dialog_vert_right{width:10px;height:100%}.fb_dialog_vert_left{margin-left:-10px}.fb_dialog_vert_right{right:0;margin-right:-10px}.fb_dialog_horiz_top,.fb_dialog_horiz_bottom{width:100%;height:10px}.fb_dialog_horiz_top{margin-top:-10px}.fb_dialog_horiz_bottom{bottom:0;margin-bottom:-10px}.fb_dialog_iframe{line-height:0}.fb_dialog_content .dialog_title{background:#6d84b4;border:1px solid #365899;color:#fff;font-size:14px;font-weight:bold;margin:0}.fb_dialog_content .dialog_title>span{background:url(https://fbstatic-a.akamaihd.net/rsrc.php/v2/yd/r/Cou7n-nqK52.gif) no-repeat 5px 50%;float:left;padding:5px 0 7px 26px}body.fb_hidden{-webkit-transform:none;height:100%;margin:0;overflow:visible;position:absolute;top:-10000px;left:0;width:100%}.fb_dialog.fb_dialog_mobile.loading{background:url(https://fbstatic-a.akamaihd.net/rsrc.php/v2/ya/r/3rhSv5V8j3o.gif) white no-repeat 50% 50%;min-height:100%;min-width:100%;overflow:hidden;position:absolute;top:0;z-index:10001}.fb_dialog.fb_dialog_mobile.loading.centered{width:auto;height:auto;min-height:initial;min-width:initial;background:none}.fb_dialog.fb_dialog_mobile.loading.centered #fb_dialog_loader_spinner{width:100%}.fb_dialog.fb_dialog_mobile.loading.centered .fb_dialog_content{background:none}.loading.centered #fb_dialog_loader_close{color:#fff;display:block;padding-top:20px;clear:both;font-size:18px}#fb-root #fb_dialog_ipad_overlay{background:rgba(0, 0, 0, .45);position:absolute;bottom:0;left:0;right:0;top:0;width:100%;min-height:100%;z-index:10000}#fb-root #fb_dialog_ipad_overlay.hidden{display:none}.fb_dialog.fb_dialog_mobile.loading iframe{visibility:hidden}.fb_dialog_content .dialog_header{-webkit-box-shadow:white 0 1px 1px -1px inset;background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#738ABA), to(#2C4987));border-bottom:1px solid;border-color:#1d4088;color:#fff;font:14px Helvetica, sans-serif;font-weight:bold;text-overflow:ellipsis;text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0;vertical-align:middle;white-space:nowrap}.fb_dialog_content .dialog_header table{-webkit-font-smoothing:subpixel-antialiased;height:43px;width:100%}.fb_dialog_content .dialog_header td.header_left{font-size:12px;padding-left:5px;vertical-align:middle;width:60px}.fb_dialog_content .dialog_header td.header_right{font-size:12px;padding-right:5px;vertical-align:middle;width:60px}.fb_dialog_content .touchable_button{background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#4966A6), color-stop(.5, #355492), to(#2A4887));border:1px solid #29487d;-webkit-background-clip:padding-box;-webkit-border-radius:3px;-webkit-box-shadow:rgba(0, 0, 0, .117188) 0 1px 1px inset, rgba(255, 255, 255, .167969) 0 1px 0;display:inline-block;margin-top:3px;max-width:85px;line-height:18px;padding:4px 12px;position:relative}.fb_dialog_content .dialog_header .touchable_button input{border:none;background:none;color:#fff;font:12px Helvetica, sans-serif;font-weight:bold;margin:2px -12px;padding:2px 6px 3px 6px;text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0}.fb_dialog_content .dialog_header .header_center{color:#fff;font-size:16px;font-weight:bold;line-height:18px;text-align:center;vertical-align:middle}.fb_dialog_content .dialog_content{background:url(https://fbstatic-a.akamaihd.net/rsrc.php/v2/y9/r/jKEcVPZFk-2.gif) no-repeat 50% 50%;border:1px solid #555;border-bottom:0;border-top:0;height:150px}.fb_dialog_content .dialog_footer{background:#f6f7f9;border:1px solid #555;border-top-color:#ccc;height:40px}#fb_dialog_loader_close{float:left}.fb_dialog.fb_dialog_mobile .fb_dialog_close_button{text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0}.fb_dialog.fb_dialog_mobile .fb_dialog_close_icon{visibility:hidden}#fb_dialog_loader_spinner{animation:rotateSpinner 1.2s linear infinite;background-color:transparent;background-image:url(https://fbstatic-a.akamaihd.net/rsrc.php/v2/yD/r/t-wz8gw1xG1.png);background-repeat:no-repeat;background-position:50% 50%;height:24px;width:24px}@keyframes rotateSpinner{0%{transform:rotate(0deg)}100%{transform:rotate(360deg)}}
-            .fb_iframe_widget{display:inline-block;position:relative}.fb_iframe_widget span{display:inline-block;position:relative;text-align:justify}.fb_iframe_widget iframe{position:absolute}.fb_iframe_widget_fluid_desktop,.fb_iframe_widget_fluid_desktop span,.fb_iframe_widget_fluid_desktop iframe{max-width:100%}.fb_iframe_widget_fluid_desktop iframe{min-width:220px;position:relative}.fb_iframe_widget_lift{z-index:1}.fb_hide_iframes iframe{position:relative;left:-10000px}.fb_iframe_widget_loader{position:relative;display:inline-block}.fb_iframe_widget_fluid{display:inline}.fb_iframe_widget_fluid span{width:100%}.fb_iframe_widget_loader iframe{min-height:32px;z-index:2;zoom:1}.fb_iframe_widget_loader .FB_Loader{background:url(https://fbstatic-a.akamaihd.net/rsrc.php/v2/y9/r/jKEcVPZFk-2.gif) no-repeat;height:32px;width:32px;margin-left:-16px;position:absolute;left:50%;z-index:4}</style>
+           <?php
+        include $APPLICATION_PATH . '/view/head.php';
+        ?>       
     </head>
 
     <body id="vien-uong-bo-sung-cho-tre-em-giup-an-ngon-chewies-multivitamin-with-ly" class="template-product">
@@ -123,7 +29,7 @@
 
                 <?php
                 include $APPLICATION_PATH . '/view/mobile-nav.php';
-                ?>
+                ?>        
 
             </ul>
         </div>
@@ -176,9 +82,17 @@
                     }());
                 </script>
                 <div class="breadcrumb-wrapper">
-                    <?php
-                    include $APPLICATION_PATH . '/view/breadcrumb-wrapper.php';
-                    ?>
+                    <div class="wrapper">
+    <nav class="breadcrumb " role="navigation" aria-label="breadcrumbs">
+        <a href="/" title="Trở về trang chủ">Trang chủ</a>
+        <span aria-hidden="true">›</span>
+        <a href="/c/<?php echo $category_info['url']?>" target="_self"><?php echo $category_info['name']?></a>
+        <span aria-hidden="true">›</span>
+        <a href="/sc/<?php echo $subcategory_info['url']?>" target="_self"><?php echo $subcategory_info['name']?></a>
+        <span aria-hidden="true">›</span>
+        <span><?php echo $product['name']?></span>
+    </nav>
+</div>
                 </div>
                 <div class="wrapper">
                     <div class="grid--rev">
@@ -194,29 +108,18 @@
                                         <div class="grid__item large--two-fifths product-info-img text-center">
                                             <div class="product-single__photos xs-hidden image-zoom" id="ProductPhoto" style="position: relative; overflow: hidden;">
 
-                                                <img src="/static/image/website/chewies-lysine-box-60-s_large.jpg" alt="" id="ProductPhotoImg" data-zoom="//hstatic.net/844/1000032844/1/2016/6-1/chewies-lysine-box-60-s_1024x1024.jpg" data-image-id="1022286629">
+                                                <img src="<?php echo $product['product_image']?>" alt="" id="ProductPhotoImg" data-zoom="<?php echo $product['product_image']?>" data-image-id="1022286629">
                                                 <img src="/static/image/website/chewies-lysine-box-60-s_1024x1024.jpg" class="zoomImg" style="position: absolute; top: 0px; left: 0px; opacity: 0; width: 869px; height: 1024px; border: none; max-width: none; max-height: none;"></div>
 
                                             <ul class="product-single__thumbnails grid-uniform fix-vector" style="display:none;" id="ProductThumbs-xs">
 
                                                 <li class="thumb__element">
                                                     <a href="javascript:;" class="product-single__thumbnail">
-                                                        <img src="/static/image/website/chewies-lysine-box-60-s_large.jpg" alt="">
+                                                        <img src="<?php echo $product['product_image']?>" alt="">
                                                     </a>
                                                 </li>
 
                                             </ul>
-
-
-                                            <ul class="product-single__thumbnails grid-uniform xs-hidden fix-vector owl-carousel owl-theme owl-loaded" id="ProductThumbs" style="">
-
-
-
-                                                <div class="owl-stage-outer"><div class="owl-stage" style="transform: translate3d(0px, 0px, 0px); transition: 0s; width: 87.5px;"><div class="owl-item active" style="width: 87.5px; margin-right: 0px;"><li class="thumb__element">
-                                                                <a href="/static/image/website/chewies-lysine-box-60-s_large.jpg" class="product-single__thumbnail">
-                                                                    <img src="/static/image/website/chewies-lysine-box-60-s_small.jpg" alt="">
-                                                                </a>
-                                                            </li></div></div></div><div class="owl-controls clickable"><div class="owl-nav owl-buttons"><div class="owl-prev" style="">prev</div><div class="owl-next" style="">next</div></div><div class="owl-dots" style=""><div class="owl-dot active"><span></span></div></div></div></ul>
 
 
 
@@ -225,9 +128,8 @@
                                         <div class="grid__item large--three-fifths">
                                             <div class="product-info-left grid__item one-whole">
 
-                                                <div class="product-vendor"><b><a href="http://shop.khoedep.vn/collections/chewies">Chewies</a></b></div>          
 
-                                                <h1 itemprop="name">Viên uống bổ sung cho trẻ em giúp ăn ngon Chewies Multivitamin With Lysine</h1>
+                                                <h1 itemprop="name"><?php echo $product['product_name']?></h1>
                                                 <span itemprop="description" class="hidden"></span>
 
 
@@ -247,7 +149,7 @@
 
                                                 <div class="product-price">
                                                     <span class="visually-hidden">Regular price</span>
-                                                    <span id="ProductPrice" class="">120,000₫</span>
+                                                    <span id="ProductPrice" class=""><?php echo $product['product_price']?></span>
 
                                                 </div>
                                                 <div class="scroll-add" itemprop="offers" itemscope="" itemtype="http://schema.org/Offer">
@@ -289,55 +191,28 @@
 
 
                                                             <div class="swatch clearfix" data-option-index="0">
-                                                                <div class="header">Kích thước</div>
+                                                                 <div class="product-information xs-hidden">
+                                        <div id="tabs-information" data-easytabs="true">
+                                            <ul class="nav nav-tabs tabs-left sideways nav-pills nav-stacked">
+                                                <li class="warranty description active"><a href="http://shop.khoedep.vn/products/vien-uong-bo-sung-cho-tre-em-giup-an-ngon-chewies-multivitamin-with-lysine#desc" data-toggle="tab" class="active">Mô tả</a></li>
+
+
+                                                <li class="warranty comment"><a href="http://shop.khoedep.vn/products/vien-uong-bo-sung-cho-tre-em-giup-an-ngon-chewies-multivitamin-with-lysine#comment" data-toggle="tab">Bình luận</a></li>
+                                                <li class="warranty comment"><a href="http://shop.khoedep.vn/products/vien-uong-bo-sung-cho-tre-em-giup-an-ngon-chewies-multivitamin-with-lysine#productreviews" data-toggle="tab">Đánh giá sản phẩm</a></li>
+                                            </ul>
+                                            <div class="tab-panel active" id="desc" style="display: block;">
+                                                <h3>Tăng cường hấp thu vitamine Chewies Multivitamin with Lysine. H60v</h3><p><strong>CÔNG DỤNG :</strong></p><p>Bổ sung các vitamin , acid folic và lysine giúp tăng cường hấp thu chất dinh dưỡng, giúp duy trì cơ thể khỏe mạnh</p><p><strong>CÁCH DÙNG&nbsp;</strong></p><p>Trẻ em trên 4 tuổi : 1-2 viên/ ngày</p><p><strong>QUY CÁCH ĐÓNG GÓI :</strong></p><p>1 lọ x 60 viên</p><p><strong>Thành phần&nbsp;</strong></p><p>Mỗi viên Chewies Lysine chứa: Lysine 50mg, Vitamin A 1500IU, Vitamin E 10IU, Vitamin D3 100IU, Vitamin B1 250mcg, Vitamin B2 250mcg, Vitamin B6 250mcg, Vitamin B12 2,0mcg, Nicotinamide 2,5mg, Vitamin C 50mg, Acid Folic 250 mcg</p><p><strong>Phụ gia :</strong></p><p>Sorbitol Powder, Aspartame, Vanila Powder 87.0474, Stawberry Powder 877988, Violet Lake Blend 300568, Magnesium Stearate G-EP</p><p><strong>Lưu ý:</strong> Sản phẩm này không phải là thuốc và không có tác dụng thay thế thuốc chữa bệnh.</p>
+                                            </div>
+                                        </div>  
+                                        <script>
+                                            $('#tabs-information').easytabs({animationSpeed: 'fast', updateHash: false});
+                                        </script>
+                                    </div>
 
 
 
 
 
-
-
-
-                                                                <div data-value="30 viên" class="swatch-element 30-vien available">
-
-                                                                    <input id="swatch-0-30-vien" type="radio" name="option-0" value="30 viên" checked="">
-
-                                                                    <label for="swatch-0-30-vien">
-                                                                        30 viên
-                                                                        <img class="crossed-out" src="/static/image/website/soldout.png">
-                                                                    </label>
-
-                                                                </div>
-
-
-
-                                                                <script>
-                                                                    jQuery('.swatch[data-option-index="0"] .30-vien').removeClass('soldout').addClass('available').find(':radio').removeAttr('disabled');
-                                                                </script>
-
-
-
-
-
-
-
-
-                                                                <div data-value="60 viên" class="swatch-element 60-vien available">
-
-                                                                    <input id="swatch-0-60-vien" type="radio" name="option-0" value="60 viên">
-
-                                                                    <label for="swatch-0-60-vien">
-                                                                        60 viên
-                                                                        <img class="crossed-out" src="/static/image/website/soldout.png">
-                                                                    </label>
-
-                                                                </div>
-
-
-
-                                                                <script>
-                                                                    jQuery('.swatch[data-option-index="0"] .60-vien').removeClass('soldout').addClass('available').find(':radio').removeAttr('disabled');
-                                                                </script>
 
 
                                                             </div>
@@ -348,18 +223,7 @@
 
 
 
-                                                            <div class="selector-wrapper" style="display: none;"><label for="productSelect-option-0">Kích thước</label><select class="single-option-selector" data-option="option1" id="productSelect-option-0"><option value="30 viên">30 viên</option><option value="60 viên">60 viên</option></select></div><select name="id" id="productSelect" class="product-single__variants hide" style="display: none;">
-
-
-                                                                <option selected="selected" data-sku="" value="1006796300">30 viên - 120,000 VND</option>
-
-
-
-                                                                <option data-sku="" value="1006796301">60 viên - 210,000 VND</option>
-
-
-                                                            </select>
-
+                                                         
 
                                                             <label for="Quantity" class="quantity-selector">Số lượng</label>
                                                             <div class="outer">
@@ -401,27 +265,10 @@
                                                 </div>
 
 
-                                                <div class="detail-social">
 
-
-
-
-
-
-
-
-
-
-                                                </div>
 
                                                 <div class="clearfix"></div>
-                                                <div id="service">
-                                                    <span></span>
-                                                </div>
-                                                <div class="clearfix"></div>
-                                                <div id="test">
 
-                                                </div>
 
                                             </div>
 
@@ -429,53 +276,8 @@
                                         </div>
                                     </div>
 
-                                    <div class="product-information xs-hidden">
-                                        <div id="tabs-information" data-easytabs="true">
-                                            <ul class="nav nav-tabs tabs-left sideways nav-pills nav-stacked">
-                                                <li class="warranty description active"><a href="http://shop.khoedep.vn/products/vien-uong-bo-sung-cho-tre-em-giup-an-ngon-chewies-multivitamin-with-lysine#desc" data-toggle="tab" class="active">Mô tả</a></li>
+                                
 
-
-                                                <li class="warranty comment"><a href="http://shop.khoedep.vn/products/vien-uong-bo-sung-cho-tre-em-giup-an-ngon-chewies-multivitamin-with-lysine#comment" data-toggle="tab">Bình luận</a></li>
-                                                <li class="warranty comment"><a href="http://shop.khoedep.vn/products/vien-uong-bo-sung-cho-tre-em-giup-an-ngon-chewies-multivitamin-with-lysine#productreviews" data-toggle="tab">Đánh giá sản phẩm</a></li>
-                                            </ul>
-                                            <div class="tab-panel active" id="desc" style="display: block;">
-                                                <h3>Tăng cường hấp thu vitamine Chewies Multivitamin with Lysine. H60v</h3><p><strong>CÔNG DỤNG :</strong></p><p>Bổ sung các vitamin , acid folic và lysine giúp tăng cường hấp thu chất dinh dưỡng, giúp duy trì cơ thể khỏe mạnh</p><p><strong>CÁCH DÙNG&nbsp;</strong></p><p>Trẻ em trên 4 tuổi : 1-2 viên/ ngày</p><p><strong>QUY CÁCH ĐÓNG GÓI :</strong></p><p>1 lọ x 60 viên</p><p><strong>Thành phần&nbsp;</strong></p><p>Mỗi viên Chewies Lysine chứa: Lysine 50mg, Vitamin A 1500IU, Vitamin E 10IU, Vitamin D3 100IU, Vitamin B1 250mcg, Vitamin B2 250mcg, Vitamin B6 250mcg, Vitamin B12 2,0mcg, Nicotinamide 2,5mg, Vitamin C 50mg, Acid Folic 250 mcg</p><p><strong>Phụ gia :</strong></p><p>Sorbitol Powder, Aspartame, Vanila Powder 87.0474, Stawberry Powder 877988, Violet Lake Blend 300568, Magnesium Stearate G-EP</p><p><strong>Lưu ý:</strong> Sản phẩm này không phải là thuốc và không có tác dụng thay thế thuốc chữa bệnh.</p>
-                                            </div>
-                                        </div>  
-                                        <script>
-                                            $('#tabs-information').easytabs({animationSpeed: 'fast', updateHash: false});
-                                        </script>
-                                    </div>
-                                    <div class="clearfix"></div>
-                                    <div class="panel-scroll">
-
-
-
-                                        <div class="tab-panel-scroll " id="productreviews">
-                                            <div id="hrv-product-reviews" class="hrv-product-reviews" data-id="1002205897"> 
-                                                <div class="title-bl"> 
-                                                    <h4><span>Đánh giá sản phẩm</span></h4> 
-                                                </div>
-                                                <div id="hrv-product-reviews-sub" style="width:100%">
-                                                    <div class="hrv-product-reviews-summary" id="hrv-product-reviews-summary">
-
-                                                    </div> 
-                                                    <div class="hrv-product-reviews-list" id="hrv-product-reviews-list">
-
-
-
-
-
-
-
-
-
-
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
                                     <div class="clearfix"></div>
                                     <div class="show-xs tab-scroll-xs">
                                         <div class="tab-panel-scroll tab-panel-xs" id="des-xs">

@@ -43,6 +43,9 @@ $meta_description = "Cửa Kéo Đài Loan - Chuyên sản xuất và lắp ráp
 $ggmap_link = "ban-do-cua-cuon-a-chau";
 $db = mysqli_connect($DB_HOST, $DB_USER, $DB_PASSWORD, $DB_NAME);
 $limit_home_category_product=10;
+$limit_category_product=12;
+$limit_category_feature=8;
+$limit_subcategory_in_product_page=8;
 mysqli_set_charset($db, 'utf8');
 
 //var_dump($db);
@@ -64,14 +67,15 @@ function get_list_product_from_query_result($r) {
     while ($row = mysqli_fetch_array($r)) {
         $product = $row;
 //        $product["name"] = $product["name"];
-        $product["product_url"] = "/p/" . $product["category"] . "/". $product['url'];
-        $product["product_thumb"] = "/static/image/product/thumb_" . $product['id'] . ".jpg";
+        $product["product_name"] = $product["name"];
+        $product["product_url"] = "/p/" . $product["subcategory"] . "/". $product['url'];
+        $product["product_thumb"] = "/static/image/product/" . $product['id'] . ".jpg";
         $product["product_image"] = "/static/image/product/" . $product["id"] . ".jpg";
-        $product["short_desc"] = get_plain_text_intro_from_html($product["description"]);
+        $product["product_short_desc"] = get_plain_text_intro_from_html($product["description"]);
         if ($product["price"] > 0) {
-            $product['price'] = number_format($product['price']) . " VNĐ";
+            $product['product_price'] = number_format($product['price']) . " VNĐ";
         } else {
-            $product['price'] = "LH $mobile_phone";
+            $product['product_price'] = "LH $mobile_phone";
         }
         $products[] = $product;
     }
