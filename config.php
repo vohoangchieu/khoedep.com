@@ -27,7 +27,7 @@ if ($live) {
     $HOME = "http://khoedep.com/";
     $STATIC_SERVER = 'http://khoedep.com/';
     $DB_USER = 'root';
-    $DB_PASSWORD = 'hoaiphuong';
+    $DB_PASSWORD = 'hc';
     $DB_HOST = 'localhost';
     $DB_NAME = 'khoedep.com';
 }

@@ -221,6 +221,7 @@
 
                             <div class="grid-uniform grid-uniform-category ">
 <?php
+//                                var_dump($list_category_product);
 foreach ($list_category_product as $product) {
     ?>
                                     <div class="grid__item large--one-quarter medium--one-half grid-xs-2">

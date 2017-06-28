@@ -39,15 +39,15 @@ if (isset($array_param[3])) {
             break;
         default :
             $sorttype = "order";
-            $order = "p.order desc";
+            $order = "p.`order` desc";
     }
 } else {
     $sorttype = "order";
-    $order = "p.order desc";
+    $order = "p.`order` desc";
 }
 
 $query = "select DISTINCT  p.id as id,p.url as url,p.name as name,p.description as description,"
-        . " p.price as price, sc.category as category "
+        . " p.price as price, sc.category as category, p.`order` AS  `order`  "
         . " from product p,subcategory sc "
         . " where sc.url=p.subcategory "
         . " and sc.category='{$category_id}'"

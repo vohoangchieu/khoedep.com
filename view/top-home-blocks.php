@@ -6,54 +6,62 @@
         ?>
     </div>    
 </div>
-
+<script>var tada_index=1</script>
 <div class="grid__item  small--one-whole medium--one-whole three-quarters main-slideshow">
     <div class="main_slideshow_wrapper">
         <div id="slider" class="flexslider">
-
-            <div class="flex-viewport" style="overflow: hidden; position: relative;"><ul class="slides" style="width: 1200%; transition-duration: 0s; transform: translate3d(-885px, 0px, 0px);"><li class="clone" aria-hidden="true" style="width: 885px; margin-right: 0px; float: left; display: block;">
-                        <a href="http://shop.khoedep.vn/collections/laneige">
-                            <img src="/static/image/website/slideshow_04_main.png" alt="" draggable="false">
-                        </a>
-                    </li>
-
-
-
-                    <li class="flex-active-slide" style="width: 885px; margin-right: 0px; float: left; display: block;">
-                        <a href="http://shop.khoedep.vn/#">
-                            <img src="/static/image/website/slideshow_01_main.png" alt="" draggable="false">
-                        </a>
-                    </li>
-
-
-
-                    <li style="width: 885px; margin-right: 0px; float: left; display: block;">
-                        <a href="http://shop.khoedep.vn/collections/thuc-pham-the-thao">
-                            <img src="/static/image/website/slideshow_02_main.png" alt="" draggable="false">
-                        </a>
-                    </li>
-
-
-
-                    <li style="width: 885px; margin-right: 0px; float: left; display: block;">
-                        <a href="http://shop.khoedep.vn/collections/miacare">
-                            <img src="/static/image/website/slideshow_03_main.png" alt="" draggable="false">
-                        </a>
-                    </li>
-
-
-
-                    <li style="width: 885px; margin-right: 0px; float: left; display: block;">
-                        <a href="http://shop.khoedep.vn/collections/laneige">
-                            <img src="/static/image/website/slideshow_04_main.png" alt="" draggable="false">
-                        </a>
-                    </li>
-
-                    <li class="clone" aria-hidden="true" style="width: 885px; margin-right: 0px; float: left; display: block;">
-                        <a href="http://shop.khoedep.vn/#">
-                            <img src="/static/image/website/slideshow_01_main.png" alt="" draggable="false">
-                        </a>
-                    </li></ul></div><ul class="flex-direction-nav"><li class="flex-nav-prev"><a class="flex-prev" href="http://shop.khoedep.vn/#">Previous</a></li><li class="flex-nav-next"><a class="flex-next" href="http://shop.khoedep.vn/#">Next</a></li></ul></div>
+					<ul class="slides">
+						
+						
+						        
+						<li>
+							<a href="https://shop.khoedep.vn/collections/giam-gia-hot?vendor=Laneige--Bioderma">
+								<img src="/static/image/website/slideshow_04_main.png" alt="" />
+							</a>
+						</li>
+						
+						
+						        
+						<li>
+							<a href="https://shop.khoedep.vn/collections/farmasi-chinh-hang">
+								<img src="/static/image/website/slideshow_01_main.png" alt="" />
+							</a>
+						</li>
+						
+						
+						        
+						<li>
+							<a href="https://shop.khoedep.vn/collections/giam-gia-hot?vendor=Laneige--Bioderma">
+								<img src="/static/image/website/slideshow_02_main.png" alt="" />
+							</a>
+						</li>
+						
+						
+						        
+						<li>
+							<a href="https://shop.khoedep.vn/products/combo-muscle-juice-sua-tang-can-tang-co-vi-socola-4-75kg-day-nhay-toc-do-275-cm">
+								<img src="/static/image/website/slideshow_03_main.png" alt="" />
+							</a>
+						</li>
+						
+						
+						        
+						<li>
+							<a href="https://shop.khoedep.vn/products/son-chong-kho-va-nut-ne-moi-lanolin-lip-balm">
+								<img src="//hstatic.net/844/1000032844/1000174872/slideshow_05_main.png?v=668" alt="" />
+							</a>
+						</li>
+						
+						
+						        
+						<li>
+							<a href="https://shop.khoedep.vn/collections/trang-diem">
+								<img src="//hstatic.net/844/1000032844/1000174872/slideshow_06_main.png?v=668" alt="" />
+							</a>
+						</li>
+						
+					</ul>
+				</div>
 
         <div id="carousel" class="flexslider">
 
