@@ -1,10 +1,9 @@
 <?php
 
-$category_id = escape_data($array_param[2]);
+$subcategory_id = escape_data($array_param[2]);
 $query_num_product = "select count(DISTINCT  p.id)"
-        . " from product p,subcategory sc "
-        . " where sc.url=p.subcategory "
-        . " and sc.category='{$category_id}'";
+        . " from product p "
+        . " where p.subcategory ='{$subcategory_id}'";
 $query_num_product_result = mysqli_query($db, $query_num_product);
 $row = mysqli_fetch_array($query_num_product_result);
 $num_product = $row[0];
@@ -47,25 +46,25 @@ if (isset($array_param[3])) {
 }
 
 $query = "select DISTINCT  p.id as id,p.url as url,p.name as name,p.description as description,"
-        . " p.price as price,p.subcategory as subcategory, sc.category as category, p.`order` AS  `order`  "
-        . " from product p,subcategory sc "
-        . " where sc.url=p.subcategory "
-        . " and sc.category='{$category_id}'"
+        . " p.price as price,p.subcategory as subcategory, p.`order` AS  `order`  "
+        . " from product p "
+        . " where p.subcategory ='{$subcategory_id}'"
         . " order by $order"
         . " limit $offset,$limit_category_product";
 //var_dump($query);
 $query_result_categoryproduct = mysqli_query($db, $query);
 $list_category_product = get_list_product_from_query_result($query_result_categoryproduct);
 
-$query_feature = "select DISTINCT  p.id as id,p.url as url,p.name as name,p.description as description,"
-        . " p.price as price, sc.category as category "
-        . " from product p,subcategory sc "
-        . " where sc.url=p.subcategory "
-        . " and sc.category='{$category_id}' order by feature desc limit $limit_category_feature";
+$query_feature = "select DISTINCT  p.id as id,p.url as url,p.name as name,p.subcategory as subcategory,p.description as description,"
+        . " p.price as price,p.feature as feature "
+        . " from product p "
+        . " where p.subcategory ='{$subcategory_id}' order by feature desc limit $limit_category_feature";
 //var_dump($query);
 $query_result_categoryproduct_feature = mysqli_query($db, $query_feature);
+//var_dump($query_result_categoryproduct_feature)
+//echo mysqli_error($db);
 $list_category_product_feature = get_list_product_from_query_result($query_result_categoryproduct_feature);
-
-$category_info = $list_category[$category_id];
-$title = $category_info['name'];
+$subcategory_info=$list_subcategory[$subcategory_id];
+$category_info = $list_category[$subcategory_info["category"]];
+$title = $subcategory_info['name'];
 ?>

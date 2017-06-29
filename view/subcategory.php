@@ -80,7 +80,7 @@
 
                             <span aria-hidden="true">›</span>
 
-                            <span><?php echo $category_info["name"] ?></span>
+                            <span><?php echo $subcategory_info["name"] ?></span>
 
 
 
@@ -102,7 +102,11 @@
                                     <!--                                    <div>
                                                                             <img src="/static/image/website/1459480980167_3994810.jpg" alt="thuc pham chuc nang banner" data-mce-src="//hstatic.net/844/1000032844/10/2016/4-11/1459480980167_3994810.jpg">
                                                                         </div>-->
-                                    <p style="text-align: justify;" data-mce-style="text-align: justify;"><span style="font-size: 15pt; color: #14b74b;" data-mce-style="font-size: 15pt; color: #14b74b;"><strong>Thực phẩm chức năng</strong></span><br><span style="font-size: 15pt;" data-mce-style="font-size: 15pt;"><strong>Những điều chúng ta cần biết !</strong></span></p><div style="text-align: justify;" data-mce-style="text-align: justify;">- Có thể dễ dàng nhận biết những thực phẩm chức năng ở dạng tự nhiên được sử dụng hằng ngày. Nhưng với những thực phẩm có bổ sung và biến đổi, bạn phải biết cách đọc nhãn bao bì thực phẩm.</div><div style="text-align: justify;" data-mce-style="text-align: justify;">- Loại thực phẩm chức năng được kể đến đầu tiên là những thực phẩm mà khi ở dạng tự nhiên đã có những hoạt chất có lợi với lượng lớn. Tiếp đó là nhóm thực phẩm có ít hoạt chất hơn, phải bổ sung hoặc tinh chế cô đặc lại ở dạng dễ sử dụng, hay gây biến đổi gene để tăng hàm lượng một số chất có lợi.</div>
+                                    <p style="text-align: justify;" data-mce-style="text-align: justify;">
+                                        <span style="font-size: 15pt; color: #14b74b;" data-mce-style="font-size: 15pt; color: #14b74b;"><strong>Thực phẩm chức năng</strong></span><br><span style="font-size: 15pt;" data-mce-style="font-size: 15pt;"><strong>Những điều chúng ta cần biết !</strong></span>
+                                    </p>
+                                    <div style="text-align: justify;" data-mce-style="text-align: justify;">- Có thể dễ dàng nhận biết những thực phẩm chức năng ở dạng tự nhiên được sử dụng hằng ngày. Nhưng với những thực phẩm có bổ sung và biến đổi, bạn phải biết cách đọc nhãn bao bì thực phẩm.</div>
+                                    <div style="text-align: justify;" data-mce-style="text-align: justify;">- Loại thực phẩm chức năng được kể đến đầu tiên là những thực phẩm mà khi ở dạng tự nhiên đã có những hoạt chất có lợi với lượng lớn. Tiếp đó là nhóm thực phẩm có ít hoạt chất hơn, phải bổ sung hoặc tinh chế cô đặc lại ở dạng dễ sử dụng, hay gây biến đổi gene để tăng hàm lượng một số chất có lợi.</div>
                                 </div>
                             </header>
 
@@ -139,7 +143,7 @@
                                 <div class="section-header">
                                     <div class="section-header__left">
                                         <h3 class="title_filter_result">
-<?php echo $category_info["name"] ?> | <span id="total_item"><?php echo $num_product ?> sản phẩm</span>
+<?php echo $subcategory_info["name"] ?> | <span id="total_item"><?php echo $num_product ?> sản phẩm</span>
                                         </h3>
                                     </div>
                                     <div class="section-header__right">
@@ -147,11 +151,11 @@
                                         <div class="form-horizontal sort_by">
                                             <label for="SortBy">Lọc theo</label>
                                             <select name="SortBy" id="SortBy">
-                                                <option value="<?php echo $category_info["map_url"] ?>"Nổi bật</option>
-                                                <option value="<?php echo $category_info["map_url"] ?>/order-by-name-inc">Bảng chữ cái, A-Z</option>
-                                                <option value="<?php echo $category_info["map_url"] ?>/order-by-name-desc">Bảng chữ cái, Z-A</option>
-                                                <option value="<?php echo $category_info["map_url"] ?>/order-by-price-inc">Giá tăng dần</option>
-                                                <option value="<?php echo $category_info["map_url"] ?>/order-by-price-desc">Giá giảm dần</option>
+                                                <option value="<?php echo $subcategory_info["map_url"] ?>"Nổi bật</option>
+                                                <option value="<?php echo $subcategory_info["map_url"] ?>/order-by-name-inc">Bảng chữ cái, A-Z</option>
+                                                <option value="<?php echo $subcategory_info["map_url"] ?>/order-by-name-desc">Bảng chữ cái, Z-A</option>
+                                                <option value="<?php echo $subcategory_info["map_url"] ?>/order-by-price-inc">Giá tăng dần</option>
+                                                <option value="<?php echo $subcategory_info["map_url"] ?>/order-by-price-desc">Giá giảm dần</option>
                                             </select>
                                         </div>
 
@@ -260,7 +264,7 @@ foreach ($list_category_product as $product) {
                                     if ($i == $page) {
                                         echo "<span class=\"page current\"> $i </span> ";
                                     } else {
-                                        echo "<span class=\"page\"><a  href=\"{$category_info['map_url']}/$sorttype/$i\"> $i </a> </span> ";
+                                        echo "<span class=\"page\"><a  href=\"{$subcategory_info['map_url']}/$sorttype/$i\"> $i </a> </span> ";
                                     }
                                 }
                                 ?>
@@ -305,7 +309,7 @@ foreach ($list_category_product as $product) {
 
 
 
-                                                        <a href="<?php echo $category_info["map_url"] ?>"><?php echo $category_info["name"] ?></a>
+                                                        <a href="<?php echo $subcategory_info["map_url"] ?>"><?php echo $subcategory_info["name"] ?></a>
 
                                                     </h5>
 

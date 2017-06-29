@@ -13,7 +13,7 @@
 
 
                                     <li class="sdc-element vetical-menu1 site-nav--has-dropdown" aria-haspopup="true">
-                                        <a href="/c/<?php echo $category["url"] ?>" class="site-nav__link">
+                                        <a href="<?php echo $category["map_url"] ?>" class="site-nav__link">
                                             <div class="element-main">
 
                                                 <div class="collection-icon icons-1">
@@ -40,7 +40,7 @@
                                                     foreach ($list_subcategory1 as $subcategory) {
                                                         ?>
                                                         <li class="list-unstyled nav-sub-mega">
-                                                            <i class="fa fa-angle-right fa-1"> </i> <a href="/sc/<?php echo $subcategory["url"]?>"><?php echo $subcategory["name"]?></a>
+                                                            <i class="fa fa-angle-right fa-1"> </i> <a href="<?php echo $subcategory["map_url"]?>"><?php echo $subcategory["name"]?></a>
                                                         </li>
 
         <?php

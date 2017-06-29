@@ -15,9 +15,9 @@ if ($array_param[1] == ""){
 }else if ($array_param[1] == "c" && trim($array_param[2]) != "") {
     include "./controller/category.php";
     include "./view/category.php";
-} else if ($array_param[1] == "bc" && trim($array_param[2]) != "") {
-    include "./controller/big-category.php";
-    include "./view/big-category.php";
+} else if ($array_param[1] == "sc" && trim($array_param[2]) != "") {
+    include "./controller/subcategory.php";
+    include "./view/subcategory.php";
 } else if ($array_param[1] == "p" && trim($array_param[2]) != "") {
     include "./controller/product.php";
     include "./view/product.php";
