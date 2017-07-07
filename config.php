@@ -47,6 +47,7 @@ $limit_home_category_product=10;
 $limit_category_product=12;
 $limit_category_feature=8;
 $limit_subcategory_in_product_page=8;
+$sorttype='';
 mysqli_set_charset($db, 'utf8');
 
 //var_dump($db);

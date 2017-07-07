@@ -5,16 +5,17 @@
 <!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1' /><![endif]-->
 
 
-<link rel="shortcut icon" href="http://hstatic.net/844/1000032844/1000122658/favicon.png?v=776" type="image/png">
+<link rel="shortcut icon" href="/static/image/website/favicon.png" type="image/png">
 
 
 <!-- Title and description ================================================== -->
 <title>
-    Shop Sức Khỏe &amp; Làm Đẹp – SHOP KhoeDep.vn
+    <?php echo $title?>
 </title>
 
 
-<meta name="description" content="Khỏe đẹp - cổng thông tin sức khỏe và làm đẹp hàng đầu chia sẻ các bí quyết về dinh dưỡng, làm đẹp và luyện tập tốt nhất cho bạn cuộc sống hạnh phúc.">
+<meta name="description" content="<?php echo $meta_description?>">
+<meta name="keywords" content="<?php echo $meta_keywords?>">
 
 <!-- Font ================================================== -->
 
@@ -24,20 +25,9 @@
 
 
 
-<meta property="og:type" content="website">
-<meta property="og:title" content="Shop Sức Khỏe &amp; Làm Đẹp">
-<meta property="og:image" content="http://hstatic.net/844/1000032844/1000122658/share_fb_home.png?v=776">
-<meta property="og:image" content="https://hstatic.net/844/1000032844/1000122658/share_fb_home.png?v=776">
 
 
 
-<meta property="og:description" content="Khỏe đẹp - cổng thông tin sức khỏe và làm đẹp hàng đầu chia sẻ các bí quyết về dinh dưỡng, làm đẹp và luyện tập tốt nhất cho bạn cuộc sống hạnh phúc.">
-
-<meta property="og:url" content="http://shop.khoedep.vn/">
-<meta property="og:site_name" content="SHOP KhoeDep.vn">
-
-
-<link rel="canonical" href="http://shop.khoedep.vn/">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="theme-color" content="#fa5555">
 

@@ -35,8 +35,8 @@
                 <h1 class="site-header__logo large--left" itemscope="" itemtype="http://schema.org/Organization">
 
 
-                    <a href="http://shop.khoedep.vn/" itemprop="url" class="site-header__logo-link">
-                        <img src="/static/image/website/logo_mobile.png" alt="SHOP KhoeDep.vn" itemprop="logo">
+                    <a href="/" itemprop="url" class="site-header__logo-link">
+                        <img src="/static/image/website/logo_mobile.png"  itemprop="logo">
                     </a>
 
 
@@ -99,60 +99,7 @@
                             <div class="kd_liner_search"></div>  
                             <div class="kd_item active" value="all" data-coll-name="all" data-coll-handle="all" data-coll-id="0">Tất cả</div>
                         </div>
-                        <!--
-        <select class="single-option-selector search-types"style="display:none" id="collection-option" name="">
-        <option value="all" data-coll-name="all" data-coll-handle="all" data-coll-id="0">Tất cả</option>
-                                  
-        
-        <option value="thuc-pham-chuc-nang" data-coll-name="Thực phẩm chức năng" data-coll-handle="thuc-pham-chuc-nang" data-coll-id="1000240752">Thực phẩm chức năng</option>
-        
-                                  
-        
-        <option value="thuc-pham-dinh-duong" data-coll-name="Thực phẩm dinh dưỡng" data-coll-handle="thuc-pham-dinh-duong" data-coll-id="1000333167">Thực phẩm dinh dưỡng</option>
-        
-                                  
-        
-        <option value="thuc-pham-the-thao" data-coll-name="Thực phẩm thể thao" data-coll-handle="thuc-pham-the-thao" data-coll-id="1000240753">Thực phẩm thể thao</option>
-        
-                                  
-        
-        <option value="cham-soc-da" data-coll-name="Chăm sóc da" data-coll-handle="cham-soc-da" data-coll-id="1000240785">Chăm sóc da</option>
-        
-                                  
-        
-        <option value="trang-diem" data-coll-name="Trang điểm" data-coll-handle="trang-diem" data-coll-id="1000240786">Trang điểm</option>
-        
-                                  
-        
-        <option value="nuoc-hoa" data-coll-name="Nước hoa" data-coll-handle="nuoc-hoa" data-coll-id="1000240787">Nước hoa</option>
-        
-                                  
-        
-        <option value="cham-soc-toc" data-coll-name="Chăm sóc tóc" data-coll-handle="cham-soc-toc" data-coll-id="1000240788">Chăm sóc tóc</option>
-        
-                                  
-        
-        <option value="cham-soc-co-the" data-coll-name="Chăm sóc cơ thể" data-coll-handle="cham-soc-co-the" data-coll-id="1000240789">Chăm sóc cơ thể</option>
-        
-                                  
-        
-        <option value="giam-can-1" data-coll-name="Giảm cân" data-coll-handle="giam-can-1" data-coll-id="1000240764">Giảm cân</option>
-        
-                                  
-        
-        <option value="thiet-bi-the-thao" data-coll-name="Thiết bị thể thao" data-coll-handle="thiet-bi-the-thao" data-coll-id="1000242417">Thiết bị thể thao</option>
-        
-                                  
-        
-        <option value="thiet-bi-y-te" data-coll-name="Thiết bị y tế" data-coll-handle="thiet-bi-y-te" data-coll-id="1000333168">Thiết bị y tế</option>
-        
-                                  
-        
-        <option value="phu-kien" data-coll-name="Phụ kiện" data-coll-handle="phu-kien" data-coll-id="1000240790">Phụ kiện</option>
-        
-                                
-        </select> 
-                        -->
+
                     </div>
 
                     <input type="hidden" name="type" value="product">
@@ -460,8 +407,8 @@
             <h1 class="site-header__logo large--left" itemscope="" itemtype="http://schema.org/Organization">
 
 
-                <a href="http://shop.khoedep.vn/" itemprop="url" class="site-header__logo-link">
-                    <img src="/static/image/website/logo.png" alt="SHOP KhoeDep.vn" itemprop="logo">
+                <a href="/" itemprop="url" class="site-header__logo-link">
+                    <img src="/static/image/website/logo.png" itemprop="logo">
                 </a>
 
 

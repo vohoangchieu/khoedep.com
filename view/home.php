@@ -87,7 +87,8 @@
                             <div class="home-blocks-<?php echo $count ?>-inner">
                                 <div class="bh-top home-block-title">
                                     <div class="collection-name">
-                                        <img class="collection-icon" src="/static/image/website/<?php echo $category["url"] ?>.png" alt="home blocks 1"><a href="/c/<?php echo $category["url"] ?>"><?php echo $category["name"] ?></a>
+                                        <img class="collection-icon" src="/static/image/website/<?php echo $category["url"] ?>.png" alt="home blocks 1">
+                                        <a href="<?php echo $category["map_url"] ?>"><?php echo $category["name"] ?></a>
                                         <div class="visible-xs catelogry-xs">
                                             Danh mục <i class="fa fa-caret-down" aria-hidden="true"></i>
                                         </div>
@@ -98,7 +99,7 @@
                                             $list_subcategory_tmp = $map_category[$category["url"]];
                                             foreach ($list_subcategory_tmp as $subcategory) {
                                                 ?>
-                                                <li class=""><a href="/sc/<?php echo $subcategory["url"] ?>"><?php echo $subcategory["name"] ?></a></li>
+                                                <li class=""><a href="<?php echo $subcategory["map_url"] ?>"><?php echo $subcategory["name"] ?></a></li>
                                                 <?php
                                             }
                                             ?>
@@ -128,23 +129,23 @@
 ?>
 
 
-                                                    <div class="grid__item">
-                                                        <div class="grid__item_wrapper">
-                                                            <div class="grid__image product-image">
-                                                                <a href="<?php echo $product["product_url"]?>">
-                                                                    <img class="hidden-xs lazy" data-original="<?php echo $product["product_image"]?>" alt="" src="<?php echo $product["product_thumb"]?>">
-                                                                </a>
+                        <div class="grid__item">
+                            <div class="grid__item_wrapper">
+                                <div class="grid__image product-image">
+                                    <a href="<?php echo $product["product_url"]?>">
+                                        <img class="hidden-xs lazy" data-original="<?php echo $product["product_image"]?>" alt="" src="<?php echo $product["product_thumb"]?>">
+                                    </a>
 
 
-                                                            </div>
-                                                            <h3 class="h6 product-title">
-                                                                <a href="<?php echo $product["product_url"]?>"><?php echo $product["product_name"]?></a>
-                                                            </h3>
-                                                            <p class="product-price">
-                                                                <?php echo $product["product_price"]?>
-                                                            </p>
-                                                        </div>
-                                                    </div>
+                                </div>
+                                <h3 class="h6 product-title">
+                                    <a href="<?php echo $product["product_url"]?>"><?php echo $product["product_name"]?></a>
+                                </h3>
+                                <p class="product-price">
+                                    <?php echo $product["product_price"]?>
+                                </p>
+                            </div>
+                        </div>
 <?php
         
     }
@@ -153,7 +154,9 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div align="center" style="clear:both;"><a class="btn btn2 text-center" href="http://shop.khoedep.vn/collections/trang-diem">Xem tất cả sản phẩm</a></div>
+                                        <div align="center" style="clear:both;">
+                                            <a class="btn btn2 text-center" href="<?php echo $category["map_url"] ?>">Xem tất cả sản phẩm</a>
+                                        </div>
                                     </div>
                                     <div class="grid__item one-quarter bh-right small--one-whole medium--one-whole">
                                         <div class="brands-area">

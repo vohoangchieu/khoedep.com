@@ -5,7 +5,7 @@
 
         <li class="mobile-nav__item" aria-haspopup="true">
             <div class="mobile-nav__has-sublist">
-                <a href="/c/<?php echo $category["url"] ?>" class="mobile-nav__link"><?php echo $category["name"] ?></a>
+                <a href="<?php echo $category["map_url"] ?>" class="mobile-nav__link"><?php echo $category["name"] ?></a>
                 <div class="mobile-nav__toggle">
                     <button type="button" class="icon-fallback-text mobile-nav__toggle-open">
                         <span class="fa fa-angle-right fa-lg" aria-hidden="true"></span>
@@ -25,7 +25,7 @@
                     }
                     ?> 
                     <li class="mobile-nav__item ">
-                        <a href="/sc/<?php echo $subcategory["url"] ?>" class="mobile-nav__link"><?php echo $subcategory["name"] ?></a>
+                        <a href="<?php echo $subcategory["map_url"] ?>" class="mobile-nav__link"><?php echo $subcategory["name"] ?></a>
                     </li>
                     <?php
                 }

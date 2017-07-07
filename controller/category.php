@@ -58,12 +58,13 @@ $query_result_categoryproduct = mysqli_query($db, $query);
 $list_category_product = get_list_product_from_query_result($query_result_categoryproduct);
 
 $query_feature = "select DISTINCT  p.id as id,p.url as url,p.name as name,p.description as description,"
-        . " p.price as price, sc.category as category "
+        . " p.price as price,p.feature as feature, sc.category as category,sc.url as subcategory "
         . " from product p,subcategory sc "
         . " where sc.url=p.subcategory "
         . " and sc.category='{$category_id}' order by feature desc limit $limit_category_feature";
 //var_dump($query);
 $query_result_categoryproduct_feature = mysqli_query($db, $query_feature);
+//echo mysqli_error($db);
 $list_category_product_feature = get_list_product_from_query_result($query_result_categoryproduct_feature);
 
 $category_info = $list_category[$category_id];
